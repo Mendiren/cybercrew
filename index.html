@@ -62,6 +62,7 @@
         .fade-in-delay-4 { animation-delay: 0.8s; opacity: 0; }
         .fade-in-delay-5 { animation-delay: 1.0s; opacity: 0; }
         .fade-in-delay-6 { animation-delay: 1.2s; opacity: 0; }
+        .fade-in-delay-7 { animation-delay: 1.4s; opacity: 0; }
     </style>
 </head>
 <body>
@@ -87,7 +88,7 @@
         <!-- Sekcja Gier i Symulacji -->
         <section class="w-full max-w-7xl mt-16 px-4">
             <h2 class="font-orbitron text-3xl font-semibold text-sky-400 mb-8 fade-in fade-in-delay-2">Nasze Projekty</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
                 
                 <!-- Gra 1: Phishing -->
                 <a href="https://quiz-sooty-nine-89.vercel.app/" target="_blank" rel="noopener noreferrer" class="card rounded-lg p-6 items-center text-center fade-in fade-in-delay-2">
@@ -133,10 +134,21 @@
                     <p class="text-gray-400 text-sm">Poczuj się jak ofiara, przeżyj symulowany atak i zobacz jego skutki na własnej skórze.</p>
                 </a>
 
+                <!-- Gra 5: Escaperoom -->
+                <a href="https://mendiren.github.io/escape/" target="_blank" rel="noopener noreferrer" class="card rounded-lg p-6 items-center text-center fade-in fade-in-delay-6">
+                    <div class="w-16 h-16 mb-4 text-sky-400 flex-shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-orbitron text-xl font-bold mb-2">Escaperoom w Sieci</h3>
+                    <p class="text-gray-400 text-sm">Przełam zabezpieczenia i wykonaj 5 zadań, od szyfru Cezara po dekodowanie TLS.</p>
+                </a>
+
             </div>
         </section>
         
-        <footer class="mt-16 text-gray-500 text-sm fade-in fade-in-delay-6">
+        <footer class="mt-16 text-gray-500 text-sm fade-in fade-in-delay-7">
             <p>&copy; 2025 CyberCrew. Wszelkie prawa zastrzeżone.</p>
             <p class="mt-2">Twórca strony i gier: Damian Mendi Marczuk</p>
         </footer>
